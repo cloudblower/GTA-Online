@@ -1,0 +1,562 @@
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00480C0B Module: (samp-server.exe)
+
+Registers:
+EAX: 0x78650000	EBX: 0x00000000	ECX: 0x003D7350	EDX: 0x00000000
+ESI: 0x00000081	EDI: 0x003D7350	EBP: 0x7C802442	ESP: 0x0012FE38
+EFLAGS: 0x00010206
+
+Stack:
++0000: 0x7C802530   0x003D7DF8   0x7C802442   0x00000000
++0010: 0x003D7318   0x00000001   0x00000000   0x004912BA
++0020: 0x00000000   0x004912C7   0x7C809C28   0x00000000
++0030: 0x00000000   0x0048D4DB   0x00000000   0x00000A28
++0040: 0x0012FFC0   0x7FFDE000   0x00005880   0x00010101
++0050: 0x00000064   0x00001E61   0x0000006C   0x000005E0
++0060: 0x003D7DF8   0x656D6167   0x65646F6D   0x00003531
++0070: 0x004C4020   0x004C401C   0x7FFDE000   0x004AB4A0
++0080: 0x0012FEA8   0x0012FFB0   0x0012FFB0   0x0049D208
++0090: 0x004BA2F8   0xFFFFFFFF   0x0049B4A1   0x0049B4B1
++00A0: 0x004AB4A0   0x0012FFB0   0x004AB0E1   0xFFFFFFFF
++00B0: 0x0049CCA6   0x00000001   0x003D2948   0x003D29E8
++00C0: 0x00000094   0x00000005   0x00000001   0x00000A28
++00D0: 0x00000002   0x76726553   0x20656369   0x6B636150
++00E0: 0x02003220   0x7C90E1FE   0x0012FF30   0x7C80931A
++00F0: 0x0207D728   0x7C90D70C   0x40000000   0x00000000
++0100: 0x00000050   0x7C90E1FE   0x0207D728   0x0012FF74
++0110: 0x7FFDE000   0x00000000   0x0207D728   0x00000000
++0120: 0x00000050   0x0012FF50   0x00000000   0x0012FFE0
++0130: 0x00241FC0   0x0012FEA4   0x00000120   0x0012FFE0
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00528000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\LSLRP\samp-server.exe)
+ntdll.dll	A: 0x7C900000 - 0x7C9B0000	(C:\WINDOWS\system32\ntdll.dll)
+kernel32.dll	A: 0x7C800000 - 0x7C8F4000	(C:\WINDOWS\system32\kernel32.dll)
+SHELL32.dll	A: 0x7C9C0000 - 0x7D1D4000	(C:\WINDOWS\system32\SHELL32.dll)
+msvcrt.dll	A: 0x77C10000 - 0x77C68000	(C:\WINDOWS\system32\msvcrt.dll)
+GDI32.dll	A: 0x77F10000 - 0x77F56000	(C:\WINDOWS\system32\GDI32.dll)
+USER32.dll	A: 0x77D40000 - 0x77DD0000	(C:\WINDOWS\system32\USER32.dll)
+ADVAPI32.dll	A: 0x77DD0000 - 0x77E6B000	(C:\WINDOWS\system32\ADVAPI32.dll)
+RPCRT4.dll	A: 0x77E70000 - 0x77F01000	(C:\WINDOWS\system32\RPCRT4.dll)
+SHLWAPI.dll	A: 0x77F60000 - 0x77FD6000	(C:\WINDOWS\system32\SHLWAPI.dll)
+WSOCK32.dll	A: 0x71AD0000 - 0x71AD9000	(C:\WINDOWS\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x71AB0000 - 0x71AC7000	(C:\WINDOWS\system32\WS2_32.dll)
+WS2HELP.dll	A: 0x71AA0000 - 0x71AA8000	(C:\WINDOWS\system32\WS2HELP.dll)
+WINMM.dll	A: 0x76B40000 - 0x76B6D000	(C:\WINDOWS\system32\WINMM.dll)
+comctl32.dll	A: 0x773D0000 - 0x774D2000	(C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll)
+comctl32.dll	A: 0x5D090000 - 0x5D127000	(C:\WINDOWS\system32\comctl32.dll)
+streamer.dll	A: 0x10000000 - 0x1003E000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\LSLRP\plugins\streamer.dll)
+MSVCP100.dll	A: 0x78050000 - 0x780B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\LSLRP\MSVCP100.dll)
+MSVCR100.dll	A: 0x78AA0000 - 0x78B5F000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\LSLRP\MSVCR100.dll)
+sscanf.dll	A: 0x00B90000 - 0x00B9D000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\LSLRP\plugins\sscanf.dll)
+whirlpool.dll	A: 0x00BB0000 - 0x00BBC000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\LSLRP\plugins\whirlpool.dll)
+MSVCR80.dll	A: 0x78130000 - 0x781CB000	(C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.6195_x-ww_44262b86\MSVCR80.dll)
+mswsock.dll	A: 0x71A50000 - 0x71A8F000	(C:\WINDOWS\system32\mswsock.dll)
+hnetcfg.dll	A: 0x662B0000 - 0x66308000	(C:\WINDOWS\system32\hnetcfg.dll)
+wshtcpip.dll	A: 0x71A90000 - 0x71A98000	(C:\WINDOWS\System32\wshtcpip.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00000000 Module: (Unknown)
+
+Registers:
+EAX: 0x01134188	EBX: 0x00396470	ECX: 0x0113FA25	EDX: 0x00000000
+ESI: 0x0113F7C0	EDI: 0x00000120	EBP: 0x001600D0	ESP: 0x1015FB94
+EFLAGS: 0x00010212
+
+Stack:
++0000: 0x00CBD0B7   0x01134188   0x00D93EA4   0x00D94EF4
++0010: 0x001600D0   0x00002736   0x001600D0   0x001600D0
++0020: 0x1015FDFC   0x0105DD99   0x00000000   0x00396470
++0030: 0x001600D0   0x00160100   0x000001FF   0x1015FC00
++0040: 0x001600E8   0x00160118   0x00CBBA65   0x00000000
++0050: 0x00000000   0x00000001   0x00000006   0x00000000
++0060: 0x00000000   0x00000000   0x00000000   0x2E373231
++0070: 0x2E302E30   0x69762031   0x43542061   0x50492F50
++0080: 0x71737900   0x6C635F6C   0x2865736F   0x61632029
++0090: 0xC2006C6C   0xB95DEBEC   0x00140178   0x60851A76
++00A0: 0x00140178   0x326DBEB5   0x00140178   0x1015FC54
++00B0: 0x00140178   0x7FFDA000   0x00000000   0x001401C8
++00C0: 0x00164780   0x00000001   0x00000000   0x00140178
++00D0: 0x001647C8   0x00164518   0x00000004   0x00000000
++00E0: 0x00000008   0x00140178   0x00140408   0x0000010B
++00F0: 0x00000008   0x00241EA4   0x00164768   0x0113FDB8
++0100: 0x00140178   0x00000004   0x001647B0   0x00140178
++0110: 0x00140240   0x00164788   0x0000015E   0x00140178
++0120: 0x001401C8   0x001647D0   0x00140220   0x00164788
++0130: 0x00000000   0x1015FCD8   0x00000000   0x7C9105C8
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00544000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\samp-server.exe)
+ntdll.dll	A: 0x7C900000 - 0x7C9B0000	(C:\WINDOWS\system32\ntdll.dll)
+kernel32.dll	A: 0x7C800000 - 0x7C8F4000	(C:\WINDOWS\system32\kernel32.dll)
+SHELL32.dll	A: 0x7C9C0000 - 0x7D1D4000	(C:\WINDOWS\system32\SHELL32.dll)
+msvcrt.dll	A: 0x77C10000 - 0x77C68000	(C:\WINDOWS\system32\msvcrt.dll)
+GDI32.dll	A: 0x77F10000 - 0x77F56000	(C:\WINDOWS\system32\GDI32.dll)
+USER32.dll	A: 0x77D40000 - 0x77DD0000	(C:\WINDOWS\system32\USER32.dll)
+ADVAPI32.dll	A: 0x77DD0000 - 0x77E6B000	(C:\WINDOWS\system32\ADVAPI32.dll)
+RPCRT4.dll	A: 0x77E70000 - 0x77F01000	(C:\WINDOWS\system32\RPCRT4.dll)
+SHLWAPI.dll	A: 0x77F60000 - 0x77FD6000	(C:\WINDOWS\system32\SHLWAPI.dll)
+WSOCK32.dll	A: 0x71AD0000 - 0x71AD9000	(C:\WINDOWS\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x71AB0000 - 0x71AC7000	(C:\WINDOWS\system32\WS2_32.dll)
+WS2HELP.dll	A: 0x71AA0000 - 0x71AA8000	(C:\WINDOWS\system32\WS2HELP.dll)
+WINMM.dll	A: 0x76B40000 - 0x76B6D000	(C:\WINDOWS\system32\WINMM.dll)
+comctl32.dll	A: 0x773D0000 - 0x774D2000	(C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll)
+comctl32.dll	A: 0x5D090000 - 0x5D127000	(C:\WINDOWS\system32\comctl32.dll)
+streamer.dll	A: 0x10000000 - 0x1005A000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\plugins\streamer.dll)
+MSVCP100.dll	A: 0x78050000 - 0x780B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x78AA0000 - 0x78B5F000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\MSVCR100.dll)
+mysql.dll	A: 0x00BB0000 - 0x00CA0000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\plugins\mysql.dll)
+LIBMYSQL.dll	A: 0x00CB0000 - 0x00FA5000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x00FC0000 - 0x01045000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x01050000 - 0x01126000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\MSVCR110.dll)
+mswsock.dll	A: 0x71A50000 - 0x71A8F000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x76F20000 - 0x76F47000	(C:\WINDOWS\system32\DNSAPI.dll)
+winrnr.dll	A: 0x76FB0000 - 0x76FB8000	(C:\WINDOWS\System32\winrnr.dll)
+WLDAP32.dll	A: 0x76F60000 - 0x76F8C000	(C:\WINDOWS\system32\WLDAP32.dll)
+rasadhlp.dll	A: 0x76FC0000 - 0x76FC6000	(C:\WINDOWS\system32\rasadhlp.dll)
+sscanf.dll	A: 0x01390000 - 0x013B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\plugins\sscanf.dll)
+whirlpool.dll	A: 0x013D0000 - 0x013F8000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\M26RP\plugins\whirlpool.dll)
+MSVCR80.dll	A: 0x78130000 - 0x781CB000	(C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.6195_x-ww_44262b86\MSVCR80.dll)
+hnetcfg.dll	A: 0x662B0000 - 0x66308000	(C:\WINDOWS\system32\hnetcfg.dll)
+wshtcpip.dll	A: 0x71A90000 - 0x71A98000	(C:\WINDOWS\System32\wshtcpip.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x7C910D39 Module: (ntdll.dll)
+
+Registers:
+EAX: 0x00000000	EBX: 0x00000000	ECX: 0x7FFDF000	EDX: 0x01130608
+ESI: 0x10171048	EDI: 0x01130000	EBP: 0x0012F85C	ESP: 0x0012F7A0
+EFLAGS: 0x00010246
+
+Stack:
++0000: 0x00000002   0x10171050   0x0791B801   0x00000000
++0010: 0x01142B48   0x1016D040   0x01130178   0x0014E508
++0020: 0x1016D048   0x0000001C   0x0012F724   0x00000000
++0030: 0x1017D170   0x7C90EE18   0x1016D040   0xFFFFFFFF
++0040: 0x7C91056D   0x71A54238   0x01140000   0x00000020
++0050: 0x01142B48   0x00000000   0x000001B0   0x00002010
++0060: 0x00142B48   0x0012F870   0x71A541C6   0x71A541D5
++0070: 0x00000000   0x00390000   0x0791B801   0x00000000
++0080: 0x01130000   0x01130000   0x01142B48   0x0001F868
++0090: 0x00000004   0x00000000   0x00000000   0x01010036
++00A0: 0x00000402   0x0012F7A0   0x0012F3C4   0x0012F88C
++00B0: 0x7C90EE18   0x7C910570   0x00000001   0x0012F89C
++00C0: 0x00D51C7E   0x01130000   0x00000000   0x10171050
++00D0: 0xA7790A65   0x00000002   0x0113F9E8   0x0791B801
++00E0: 0x0012F86C   0x0012F870   0x0012F3B4   0x0012FEDC
++00F0: 0x00D57050   0xA7B0C599   0xFFFFFFFE   0x0012F908
++0100: 0x00CC5DDE   0x10171050   0x0113F9E8   0x00CBA65B
++0110: 0x0113F9E8   0x0179DE00   0x0113F9E8   0x00CBBAD9
++0120: 0x0113F9E8   0x0113F9E8   0x00000001   0x00000000
++0130: 0x00000000   0x00000000   0x00000000   0x00000001
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00544000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\samp-server.exe)
+ntdll.dll	A: 0x7C900000 - 0x7C9B0000	(C:\WINDOWS\system32\ntdll.dll)
+kernel32.dll	A: 0x7C800000 - 0x7C8F4000	(C:\WINDOWS\system32\kernel32.dll)
+SHELL32.dll	A: 0x7C9C0000 - 0x7D1D4000	(C:\WINDOWS\system32\SHELL32.dll)
+msvcrt.dll	A: 0x77C10000 - 0x77C68000	(C:\WINDOWS\system32\msvcrt.dll)
+GDI32.dll	A: 0x77F10000 - 0x77F56000	(C:\WINDOWS\system32\GDI32.dll)
+USER32.dll	A: 0x77D40000 - 0x77DD0000	(C:\WINDOWS\system32\USER32.dll)
+ADVAPI32.dll	A: 0x77DD0000 - 0x77E6B000	(C:\WINDOWS\system32\ADVAPI32.dll)
+RPCRT4.dll	A: 0x77E70000 - 0x77F01000	(C:\WINDOWS\system32\RPCRT4.dll)
+SHLWAPI.dll	A: 0x77F60000 - 0x77FD6000	(C:\WINDOWS\system32\SHLWAPI.dll)
+WSOCK32.dll	A: 0x71AD0000 - 0x71AD9000	(C:\WINDOWS\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x71AB0000 - 0x71AC7000	(C:\WINDOWS\system32\WS2_32.dll)
+WS2HELP.dll	A: 0x71AA0000 - 0x71AA8000	(C:\WINDOWS\system32\WS2HELP.dll)
+WINMM.dll	A: 0x76B40000 - 0x76B6D000	(C:\WINDOWS\system32\WINMM.dll)
+comctl32.dll	A: 0x773D0000 - 0x774D2000	(C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll)
+comctl32.dll	A: 0x5D090000 - 0x5D127000	(C:\WINDOWS\system32\comctl32.dll)
+streamer.dll	A: 0x10000000 - 0x1005A000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\streamer.dll)
+MSVCP100.dll	A: 0x78050000 - 0x780B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x78AA0000 - 0x78B5F000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR100.dll)
+mysql.dll	A: 0x00BB0000 - 0x00CA0000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\mysql.dll)
+LIBMYSQL.dll	A: 0x00CB0000 - 0x00FA5000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x00FC0000 - 0x01045000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x01050000 - 0x01126000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR110.dll)
+mswsock.dll	A: 0x71A50000 - 0x71A8F000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x76F20000 - 0x76F47000	(C:\WINDOWS\system32\DNSAPI.dll)
+winrnr.dll	A: 0x76FB0000 - 0x76FB8000	(C:\WINDOWS\System32\winrnr.dll)
+WLDAP32.dll	A: 0x76F60000 - 0x76F8C000	(C:\WINDOWS\system32\WLDAP32.dll)
+rasadhlp.dll	A: 0x76FC0000 - 0x76FC6000	(C:\WINDOWS\system32\rasadhlp.dll)
+sscanf.dll	A: 0x01390000 - 0x013B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\sscanf.dll)
+whirlpool.dll	A: 0x013D0000 - 0x013F8000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\whirlpool.dll)
+MSVCR80.dll	A: 0x78130000 - 0x781CB000	(C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.6195_x-ww_44262b86\MSVCR80.dll)
+hnetcfg.dll	A: 0x662B0000 - 0x66308000	(C:\WINDOWS\system32\hnetcfg.dll)
+wshtcpip.dll	A: 0x71A90000 - 0x71A98000	(C:\WINDOWS\System32\wshtcpip.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x7C910D39 Module: (ntdll.dll)
+
+Registers:
+EAX: 0x00000000	EBX: 0x00000000	ECX: 0x7FFDB000	EDX: 0x01130608
+ESI: 0x07B21048	EDI: 0x01130000	EBP: 0x07B0FD64	ESP: 0x07B0FCA8
+EFLAGS: 0x00010246
+
+Stack:
++0000: 0x00000000   0x07B21050   0xFFFFFFFF   0x00000000
++0010: 0x00000001   0x07B1D040   0x01130178   0x71AB42F8
++0020: 0x07B1D048   0xC0000120   0x00000000   0x000000F8
++0030: 0x07B230A0   0x0000A3A2   0x07B1D040   0x0014E2CC
++0040: 0x07B0FD68   0x71A771C8   0x71A571D8   0x00000020
++0050: 0x71A571D4   0x71A56E2D   0x000001B0   0x00002010
++0060: 0x07B0FD78   0x71A540B0   0x000000EC   0x71A541D5
++0070: 0xFFFFFFFF   0x00390000   0xFFFFFFFF   0x71A571D4
++0080: 0x01130000   0x01130000   0x00000001   0x0001FD70
++0090: 0x00000004   0x00000000   0x00000000   0x01010036
++00A0: 0x00000402   0x07B0FCA8   0x07B0F8CC   0x07B0FD94
++00B0: 0x7C90EE18   0x7C910570   0x00000001   0x07B0FDA4
++00C0: 0x00D51C7E   0x01130000   0x00000000   0x07B21050
++00D0: 0x0D5D0374   0x00000000   0x0113F9E8   0xFFFFFFFF
++00E0: 0x07B0FD74   0x07B0FD78   0x07B0F8BC   0x07B0FF14
++00F0: 0x00D57050   0x0A36C9B0   0xFFFFFFFE   0x07B0FF24
++0100: 0x00CC5DDE   0x07B21050   0x0113F9E8   0x00CBA65B
++0110: 0x0113F9E8   0x0113F9E8   0x0113F9E8   0x00CBC561
++0120: 0x0113F9E8   0x0113F9E8   0x0023FBC0   0x00CBDFED
++0130: 0x0113F9E8   0x0113F9E8   0x07B0FF24   0x00DB60C8
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00544000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\samp-server.exe)
+ntdll.dll	A: 0x7C900000 - 0x7C9B0000	(C:\WINDOWS\system32\ntdll.dll)
+kernel32.dll	A: 0x7C800000 - 0x7C8F4000	(C:\WINDOWS\system32\kernel32.dll)
+SHELL32.dll	A: 0x7C9C0000 - 0x7D1D4000	(C:\WINDOWS\system32\SHELL32.dll)
+msvcrt.dll	A: 0x77C10000 - 0x77C68000	(C:\WINDOWS\system32\msvcrt.dll)
+GDI32.dll	A: 0x77F10000 - 0x77F56000	(C:\WINDOWS\system32\GDI32.dll)
+USER32.dll	A: 0x77D40000 - 0x77DD0000	(C:\WINDOWS\system32\USER32.dll)
+ADVAPI32.dll	A: 0x77DD0000 - 0x77E6B000	(C:\WINDOWS\system32\ADVAPI32.dll)
+RPCRT4.dll	A: 0x77E70000 - 0x77F01000	(C:\WINDOWS\system32\RPCRT4.dll)
+SHLWAPI.dll	A: 0x77F60000 - 0x77FD6000	(C:\WINDOWS\system32\SHLWAPI.dll)
+WSOCK32.dll	A: 0x71AD0000 - 0x71AD9000	(C:\WINDOWS\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x71AB0000 - 0x71AC7000	(C:\WINDOWS\system32\WS2_32.dll)
+WS2HELP.dll	A: 0x71AA0000 - 0x71AA8000	(C:\WINDOWS\system32\WS2HELP.dll)
+WINMM.dll	A: 0x76B40000 - 0x76B6D000	(C:\WINDOWS\system32\WINMM.dll)
+comctl32.dll	A: 0x773D0000 - 0x774D2000	(C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll)
+comctl32.dll	A: 0x5D090000 - 0x5D127000	(C:\WINDOWS\system32\comctl32.dll)
+streamer.dll	A: 0x10000000 - 0x1005A000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\streamer.dll)
+MSVCP100.dll	A: 0x78050000 - 0x780B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x78AA0000 - 0x78B5F000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR100.dll)
+mysql.dll	A: 0x00BB0000 - 0x00CA0000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\mysql.dll)
+LIBMYSQL.dll	A: 0x00CB0000 - 0x00FA5000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x00FC0000 - 0x01045000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x01050000 - 0x01126000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR110.dll)
+mswsock.dll	A: 0x71A50000 - 0x71A8F000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x76F20000 - 0x76F47000	(C:\WINDOWS\system32\DNSAPI.dll)
+winrnr.dll	A: 0x76FB0000 - 0x76FB8000	(C:\WINDOWS\System32\winrnr.dll)
+WLDAP32.dll	A: 0x76F60000 - 0x76F8C000	(C:\WINDOWS\system32\WLDAP32.dll)
+rasadhlp.dll	A: 0x76FC0000 - 0x76FC6000	(C:\WINDOWS\system32\rasadhlp.dll)
+sscanf.dll	A: 0x01390000 - 0x013B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\sscanf.dll)
+whirlpool.dll	A: 0x013D0000 - 0x013F8000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\whirlpool.dll)
+MSVCR80.dll	A: 0x78130000 - 0x781CB000	(C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.6195_x-ww_44262b86\MSVCR80.dll)
+hnetcfg.dll	A: 0x662B0000 - 0x66308000	(C:\WINDOWS\system32\hnetcfg.dll)
+wshtcpip.dll	A: 0x71A90000 - 0x71A98000	(C:\WINDOWS\System32\wshtcpip.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00000000 Module: (Unknown)
+
+Registers:
+EAX: 0x011343B0	EBX: 0xFFFFFFFF	ECX: 0x00002714	EDX: 0x00000000
+ESI: 0x0113F9E8	EDI: 0x00000004	EBP: 0x07B21050	ESP: 0x07B0FD8C
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x00CC6243   0x011343B0   0x0113F9E8   0x07B0FF24
++0010: 0x0801ACD8   0x00000000   0x00CC62FA   0x07B0FDC8
++0020: 0x0113F9E8   0x0113F9E8   0x0801ACD8   0x00DB60C8
++0030: 0x00CBBB74   0x0113F9E8   0x00CBC495   0x00000000
++0040: 0x0113F9E8   0x0801ACD8   0x00CBDFED   0x0113F9E8
++0050: 0x0113F9E8   0x07B0FF24   0x00DB60C8   0x00CBBBBD
++0060: 0x0113F9E8   0x00160228   0x00BBF4AA   0x0113F9E8
++0070: 0x0801AD70   0x00000019   0x34089D82   0x001501F0
++0080: 0x0801ACD8   0x001501B0   0x00000000   0x0801AB88
++0090: 0x0801ACD8   0x00000004   0x07C10BF0   0x74650000
++00A0: 0x6E6F7473   0x79740065   0x00006B00   0x00000000
++00B0: 0x0000000F   0x69727500   0x63696473   0x6E6F6974
++00C0: 0x00004449   0x00000000   0x0000000F   0x7C8399F3
++00D0: 0x7C809590   0xFFFFFFFF   0x7C809522   0x7C809C86
++00E0: 0x00000001   0x00000000   0x00000000   0x00000000
++00F0: 0x00000000   0x07B0FF08   0x00BB4D0A   0x53794D43
++0100: 0x75514C51   0x3A797265   0x6578453A   0x65747563
++0110: 0x6E79445B   0x5F686556   0x72657551   0x6E694679
++0120: 0x28687369   0x5D296969   0x07B0FF00   0x00BB57C6
++0130: 0x07B0FEA4   0xE1651345   0x01D20133   0xAD134853
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00544000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\samp-server.exe)
+ntdll.dll	A: 0x7C900000 - 0x7C9B0000	(C:\WINDOWS\system32\ntdll.dll)
+kernel32.dll	A: 0x7C800000 - 0x7C8F4000	(C:\WINDOWS\system32\kernel32.dll)
+SHELL32.dll	A: 0x7C9C0000 - 0x7D1D4000	(C:\WINDOWS\system32\SHELL32.dll)
+msvcrt.dll	A: 0x77C10000 - 0x77C68000	(C:\WINDOWS\system32\msvcrt.dll)
+GDI32.dll	A: 0x77F10000 - 0x77F56000	(C:\WINDOWS\system32\GDI32.dll)
+USER32.dll	A: 0x77D40000 - 0x77DD0000	(C:\WINDOWS\system32\USER32.dll)
+ADVAPI32.dll	A: 0x77DD0000 - 0x77E6B000	(C:\WINDOWS\system32\ADVAPI32.dll)
+RPCRT4.dll	A: 0x77E70000 - 0x77F01000	(C:\WINDOWS\system32\RPCRT4.dll)
+SHLWAPI.dll	A: 0x77F60000 - 0x77FD6000	(C:\WINDOWS\system32\SHLWAPI.dll)
+WSOCK32.dll	A: 0x71AD0000 - 0x71AD9000	(C:\WINDOWS\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x71AB0000 - 0x71AC7000	(C:\WINDOWS\system32\WS2_32.dll)
+WS2HELP.dll	A: 0x71AA0000 - 0x71AA8000	(C:\WINDOWS\system32\WS2HELP.dll)
+WINMM.dll	A: 0x76B40000 - 0x76B6D000	(C:\WINDOWS\system32\WINMM.dll)
+comctl32.dll	A: 0x773D0000 - 0x774D2000	(C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll)
+comctl32.dll	A: 0x5D090000 - 0x5D127000	(C:\WINDOWS\system32\comctl32.dll)
+streamer.dll	A: 0x10000000 - 0x1005A000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\streamer.dll)
+MSVCP100.dll	A: 0x78050000 - 0x780B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x78AA0000 - 0x78B5F000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR100.dll)
+mysql.dll	A: 0x00BB0000 - 0x00CA0000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\mysql.dll)
+LIBMYSQL.dll	A: 0x00CB0000 - 0x00FA5000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x00FC0000 - 0x01045000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x01050000 - 0x01126000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR110.dll)
+mswsock.dll	A: 0x71A50000 - 0x71A8F000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x76F20000 - 0x76F47000	(C:\WINDOWS\system32\DNSAPI.dll)
+winrnr.dll	A: 0x76FB0000 - 0x76FB8000	(C:\WINDOWS\System32\winrnr.dll)
+WLDAP32.dll	A: 0x76F60000 - 0x76F8C000	(C:\WINDOWS\system32\WLDAP32.dll)
+rasadhlp.dll	A: 0x76FC0000 - 0x76FC6000	(C:\WINDOWS\system32\rasadhlp.dll)
+sscanf.dll	A: 0x01390000 - 0x013B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\sscanf.dll)
+whirlpool.dll	A: 0x013D0000 - 0x013F8000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\whirlpool.dll)
+MSVCR80.dll	A: 0x78130000 - 0x781CB000	(C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.6195_x-ww_44262b86\MSVCR80.dll)
+hnetcfg.dll	A: 0x662B0000 - 0x66308000	(C:\WINDOWS\system32\hnetcfg.dll)
+wshtcpip.dll	A: 0x71A90000 - 0x71A98000	(C:\WINDOWS\System32\wshtcpip.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00CC623A Module: (LIBMYSQL.dll)
+
+Registers:
+EAX: 0x00000000	EBX: 0xFFFFFFFF	ECX: 0x00002714	EDX: 0x00070002
+ESI: 0x0113F9E8	EDI: 0x00000004	EBP: 0x07B21050	ESP: 0x07B0FD94
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x0113F9E8   0x07B0FF24   0x001F33C8   0x00000000
++0010: 0x00CC62FA   0x07B0FDC8   0x0113F9E8   0x0113F9E8
++0020: 0x001F33C8   0x00DB60C8   0x00CBBB74   0x0113F9E8
++0030: 0x00CBC495   0x00000000   0x0113F9E8   0x001F33C8
++0040: 0x00CBDFED   0x0113F9E8   0x0113F9E8   0x07B0FF24
++0050: 0x00DB60C8   0x00CBBBBD   0x0113F9E8   0x001600F8
++0060: 0x00BBF4AA   0x0113F9E8   0x001AB860   0x00000389
++0070: 0x71A113AA   0x0014FC80   0x001F33C8   0x0014FC40
++0080: 0x00000001   0x0014FA30   0x001F33C8   0x00000010
++0090: 0x00000000   0xFFFFFFFF   0x07B0FED0   0x7FFDF000
++00A0: 0x7FFDA000   0x07B00009   0x07B0FE24   0x07B0FDF0
++00B0: 0x00000102   0x00000001   0x07B0FDE4   0x00160670
++00C0: 0x07B0FEFC   0x7C8399F3   0x7C809590   0xFFFFFFFF
++00D0: 0x7C809522   0x7C809C86   0x00000001   0x07B0FECC
++00E0: 0x00000000   0x0000000A   0x00000000   0x07B0FF08
++00F0: 0x00BB4D0A   0x53794D43   0x75514C51   0x3A797265
++0100: 0x6578453A   0x65747563   0x516E4F5B   0x79726575
++0110: 0x696E6946   0x69286873   0x005D2969   0x0014FC80
++0120: 0x07B0FF10   0x00BB57C6   0x07B0FEA4   0x8310C5DC
++0130: 0x01D20A67   0xD7258D62   0x000000D4   0x00000000
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00544000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\samp-server.exe)
+ntdll.dll	A: 0x7C900000 - 0x7C9B0000	(C:\WINDOWS\system32\ntdll.dll)
+kernel32.dll	A: 0x7C800000 - 0x7C8F4000	(C:\WINDOWS\system32\kernel32.dll)
+SHELL32.dll	A: 0x7C9C0000 - 0x7D1D4000	(C:\WINDOWS\system32\SHELL32.dll)
+msvcrt.dll	A: 0x77C10000 - 0x77C68000	(C:\WINDOWS\system32\msvcrt.dll)
+GDI32.dll	A: 0x77F10000 - 0x77F56000	(C:\WINDOWS\system32\GDI32.dll)
+USER32.dll	A: 0x77D40000 - 0x77DD0000	(C:\WINDOWS\system32\USER32.dll)
+ADVAPI32.dll	A: 0x77DD0000 - 0x77E6B000	(C:\WINDOWS\system32\ADVAPI32.dll)
+RPCRT4.dll	A: 0x77E70000 - 0x77F01000	(C:\WINDOWS\system32\RPCRT4.dll)
+SHLWAPI.dll	A: 0x77F60000 - 0x77FD6000	(C:\WINDOWS\system32\SHLWAPI.dll)
+WSOCK32.dll	A: 0x71AD0000 - 0x71AD9000	(C:\WINDOWS\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x71AB0000 - 0x71AC7000	(C:\WINDOWS\system32\WS2_32.dll)
+WS2HELP.dll	A: 0x71AA0000 - 0x71AA8000	(C:\WINDOWS\system32\WS2HELP.dll)
+WINMM.dll	A: 0x76B40000 - 0x76B6D000	(C:\WINDOWS\system32\WINMM.dll)
+comctl32.dll	A: 0x773D0000 - 0x774D2000	(C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll)
+comctl32.dll	A: 0x5D090000 - 0x5D127000	(C:\WINDOWS\system32\comctl32.dll)
+streamer.dll	A: 0x10000000 - 0x1005A000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\streamer.dll)
+MSVCP100.dll	A: 0x78050000 - 0x780B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x78AA0000 - 0x78B5F000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR100.dll)
+mysql.dll	A: 0x00BB0000 - 0x00CA0000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\mysql.dll)
+LIBMYSQL.dll	A: 0x00CB0000 - 0x00FA5000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x00FC0000 - 0x01045000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x01050000 - 0x01126000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR110.dll)
+mswsock.dll	A: 0x71A50000 - 0x71A8F000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x76F20000 - 0x76F47000	(C:\WINDOWS\system32\DNSAPI.dll)
+winrnr.dll	A: 0x76FB0000 - 0x76FB8000	(C:\WINDOWS\System32\winrnr.dll)
+WLDAP32.dll	A: 0x76F60000 - 0x76F8C000	(C:\WINDOWS\system32\WLDAP32.dll)
+rasadhlp.dll	A: 0x76FC0000 - 0x76FC6000	(C:\WINDOWS\system32\rasadhlp.dll)
+sscanf.dll	A: 0x01390000 - 0x013B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\sscanf.dll)
+whirlpool.dll	A: 0x013D0000 - 0x013F8000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\whirlpool.dll)
+MSVCR80.dll	A: 0x78130000 - 0x781CB000	(C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.6195_x-ww_44262b86\MSVCR80.dll)
+hnetcfg.dll	A: 0x662B0000 - 0x66308000	(C:\WINDOWS\system32\hnetcfg.dll)
+wshtcpip.dll	A: 0x71A90000 - 0x71A98000	(C:\WINDOWS\System32\wshtcpip.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x00000000 Module: (Unknown)
+
+Registers:
+EAX: 0x01134190	EBX: 0x000000AF	ECX: 0x00002714	EDX: 0x00000000
+ESI: 0x0113F9E8	EDI: 0x00000047	EBP: 0x07B210B8	ESP: 0x07B0FD70
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x00CC6243   0x01134190   0x07B23060   0x07B29088
++0010: 0x00000033   0x00000001   0x00CC62FA   0x07B0FDAC
++0020: 0x07B23060   0x0113F9E8   0x00000033   0x00001FE4
++0030: 0x00000410   0x07B2A0C6   0x00CBC495   0x00000000
++0040: 0x07B2A0C8   0x00000033   0x00CBC8DF   0x0113F9E8
++0050: 0x0113F9E8   0x00160228   0x0113F9E8   0x07B33478
++0060: 0x07B21100   0x07B35044   0x07B29088   0x07B23060
++0070: 0x07B2A0C7   0x00CBBC82   0x0113F9E8   0x07B33F68
++0080: 0x00000033   0x0014F508   0x07B0FF24   0x00BBF4FC
++0090: 0x0113F9E8   0x38B365BB   0x0014FE28   0x0014F508
++00A0: 0x0014FDE8   0x00000000   0x0014F3B8   0x0014F508
++00B0: 0x00000004   0x07B33408   0x74650000   0x6E6F7473
++00C0: 0x79740065   0x00006B00   0x00000000   0x0000000F
++00D0: 0x69727500   0x63696473   0x6E6F6974   0x00004449
++00E0: 0x00000000   0x0000000F   0x7C8399F3   0x7C809590
++00F0: 0xFFFFFFFF   0x7C809522   0x7C809C86   0x00000001
++0100: 0x00000000   0x00000000   0x00000000   0x00000000
++0110: 0x07B0FF08   0x00BB4D0A   0x53794D43   0x75514C51
++0120: 0x3A797265   0x6578453A   0x65747563   0x6E79445B
++0130: 0x5F686556   0x72657551   0x6E694679   0x28687369
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00544000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\samp-server.exe)
+ntdll.dll	A: 0x7C900000 - 0x7C9B0000	(C:\WINDOWS\system32\ntdll.dll)
+kernel32.dll	A: 0x7C800000 - 0x7C8F4000	(C:\WINDOWS\system32\kernel32.dll)
+SHELL32.dll	A: 0x7C9C0000 - 0x7D1D4000	(C:\WINDOWS\system32\SHELL32.dll)
+msvcrt.dll	A: 0x77C10000 - 0x77C68000	(C:\WINDOWS\system32\msvcrt.dll)
+GDI32.dll	A: 0x77F10000 - 0x77F56000	(C:\WINDOWS\system32\GDI32.dll)
+USER32.dll	A: 0x77D40000 - 0x77DD0000	(C:\WINDOWS\system32\USER32.dll)
+ADVAPI32.dll	A: 0x77DD0000 - 0x77E6B000	(C:\WINDOWS\system32\ADVAPI32.dll)
+RPCRT4.dll	A: 0x77E70000 - 0x77F01000	(C:\WINDOWS\system32\RPCRT4.dll)
+SHLWAPI.dll	A: 0x77F60000 - 0x77FD6000	(C:\WINDOWS\system32\SHLWAPI.dll)
+WSOCK32.dll	A: 0x71AD0000 - 0x71AD9000	(C:\WINDOWS\system32\WSOCK32.dll)
+WS2_32.dll	A: 0x71AB0000 - 0x71AC7000	(C:\WINDOWS\system32\WS2_32.dll)
+WS2HELP.dll	A: 0x71AA0000 - 0x71AA8000	(C:\WINDOWS\system32\WS2HELP.dll)
+WINMM.dll	A: 0x76B40000 - 0x76B6D000	(C:\WINDOWS\system32\WINMM.dll)
+comctl32.dll	A: 0x773D0000 - 0x774D2000	(C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll)
+comctl32.dll	A: 0x5D090000 - 0x5D127000	(C:\WINDOWS\system32\comctl32.dll)
+streamer.dll	A: 0x10000000 - 0x1005A000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\streamer.dll)
+MSVCP100.dll	A: 0x78050000 - 0x780B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x78AA0000 - 0x78B5F000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR100.dll)
+mysql.dll	A: 0x00BB0000 - 0x00CA0000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\mysql.dll)
+LIBMYSQL.dll	A: 0x00CB0000 - 0x00FA5000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x00FC0000 - 0x01045000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x01050000 - 0x01126000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\MSVCR110.dll)
+mswsock.dll	A: 0x71A50000 - 0x71A8F000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x76F20000 - 0x76F47000	(C:\WINDOWS\system32\DNSAPI.dll)
+winrnr.dll	A: 0x76FB0000 - 0x76FB8000	(C:\WINDOWS\System32\winrnr.dll)
+WLDAP32.dll	A: 0x76F60000 - 0x76F8C000	(C:\WINDOWS\system32\WLDAP32.dll)
+rasadhlp.dll	A: 0x76FC0000 - 0x76FC6000	(C:\WINDOWS\system32\rasadhlp.dll)
+sscanf.dll	A: 0x01390000 - 0x013B9000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\sscanf.dll)
+whirlpool.dll	A: 0x013D0000 - 0x013F8000	(D:\Administrator Game\Game Setup\Grand Theft Auto\Grand Theft Auto San Andreas\File\Gamemode SA-MP\Gamemode Role Play\Gamemode M26RP\plugins\whirlpool.dll)
+MSVCR80.dll	A: 0x78130000 - 0x781CB000	(C:\WINDOWS\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.6195_x-ww_44262b86\MSVCR80.dll)
+hnetcfg.dll	A: 0x662B0000 - 0x66308000	(C:\WINDOWS\system32\hnetcfg.dll)
+wshtcpip.dll	A: 0x71A90000 - 0x71A98000	(C:\WINDOWS\System32\wshtcpip.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x77517521 Module: (ntdll.dll)
+
+Registers:
+EAX: 0x01982668	EBX: 0x01980000	ECX: 0x01982668	EDX: 0xFFFFFFFF
+ESI: 0x01986C58	EDI: 0x01982660	EBP: 0x0865FD88	ESP: 0x0865FC38
+EFLAGS: 0x00010246
+
+Stack:
++0000: 0x3C4EE772   0x01986C58   0x01980000   0x00595994
++0010: 0x00575E20   0x01980000   0x00020000   0x00020000
++0020: 0x00000042   0x7751733A   0x3C4EE74A   0x021A7308
++0030: 0x01A50000   0x00595990   0xC20001C3   0x00000000
++0040: 0x00020868   0x7751733A   0x3C4EE72A   0x00595B78
++0050: 0x00550000   0x00000000   0x00000042   0xFFFFFCBE
++0060: 0x45010044   0x74D37893   0x02000002   0x0865FE94
++0070: 0x85000386   0x00B20000   0x00000151   0xFFFFFF1A
++0080: 0xFFFFFFFF   0x01980000   0x00000044   0x01986C58
++0090: 0x3B000239   0x00000001   0x18091001   0x00000000
++00A0: 0x00000001   0x00000000   0x00000000   0x01A50000
++00B0: 0x00000001   0x021A7308   0x00000000   0x01A53B50
++00C0: 0xFFFFFFFF   0x00000000   0x00000001   0x00550000
++00D0: 0x000000DA   0x00000000   0x00000001   0x00557A8C
++00E0: 0x00000000   0x0000007F   0xFFFFFFFF   0x019803A4
++00F0: 0x00000001   0x01B21148   0x00000001   0x00000000
++0100: 0x00000080   0x000000FF   0x01982C58   0x00000000
++0110: 0x00000000   0x01982660   0x00000001   0x00000044
++0120: 0x00000153   0x01010000   0x00000002   0x0224EE50
++0130: 0x021A7310   0x00550000   0x00080000   0x0865F778
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\Admin\Desktop\Gamemode M26RP\samp-server.exe)
+ntdll.dll	A: 0x774E0000 - 0x7766D000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75B20000 - 0x75BB5000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x74C30000 - 0x74DF5000	(C:\Windows\System32\KERNELBASE.dll)
+apphelp.dll	A: 0x72A50000 - 0x72AE3000	(C:\Windows\SYSTEM32\apphelp.dll)
+SHELL32.dll	A: 0x75C40000 - 0x76F88000	(C:\Windows\System32\SHELL32.dll)
+msvcrt.dll	A: 0x74FB0000 - 0x7506D000	(C:\Windows\System32\msvcrt.dll)
+cfgmgr32.dll	A: 0x74A40000 - 0x74A79000	(C:\Windows\System32\cfgmgr32.dll)
+ucrtbase.dll	A: 0x74A80000 - 0x74B98000	(C:\Windows\System32\ucrtbase.dll)
+shcore.dll	A: 0x773F0000 - 0x7747C000	(C:\Windows\System32\shcore.dll)
+RPCRT4.dll	A: 0x75540000 - 0x75607000	(C:\Windows\System32\RPCRT4.dll)
+combase.dll	A: 0x76FB0000 - 0x771E8000	(C:\Windows\System32\combase.dll)
+bcryptPrimitives.dll	A: 0x74100000 - 0x74157000	(C:\Windows\System32\bcryptPrimitives.dll)
+windows.storage.dll	A: 0x744B0000 - 0x74A34000	(C:\Windows\System32\windows.storage.dll)
+advapi32.dll	A: 0x75BC0000 - 0x75C37000	(C:\Windows\System32\advapi32.dll)
+sechost.dll	A: 0x75610000 - 0x75651000	(C:\Windows\System32\sechost.dll)
+shlwapi.dll	A: 0x74F60000 - 0x74FA5000	(C:\Windows\System32\shlwapi.dll)
+GDI32.dll	A: 0x75660000 - 0x75681000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x74180000 - 0x742DE000	(C:\Windows\System32\gdi32full.dll)
+msvcp_win.dll	A: 0x74080000 - 0x740F9000	(C:\Windows\System32\msvcp_win.dll)
+USER32.dll	A: 0x752A0000 - 0x753D0000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x74160000 - 0x7417A000	(C:\Windows\System32\win32u.dll)
+kernel.appcore.dll	A: 0x74010000 - 0x7401E000	(C:\Windows\System32\kernel.appcore.dll)
+powrprof.dll	A: 0x74020000 - 0x74065000	(C:\Windows\System32\powrprof.dll)
+profapi.dll	A: 0x74000000 - 0x74010000	(C:\Windows\System32\profapi.dll)
+WSOCK32.dll	A: 0x6A440000 - 0x6A448000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x727D0000 - 0x727F4000	(C:\Windows\SYSTEM32\WINMM.dll)
+winmmbase.dll	A: 0x72750000 - 0x72773000	(C:\Windows\SYSTEM32\winmmbase.dll)
+ws2_32.DLL	A: 0x75070000 - 0x750D7000	(C:\Windows\System32\ws2_32.DLL)
+IMM32.DLL	A: 0x751E0000 - 0x75206000	(C:\Windows\System32\IMM32.DLL)
+streamer.DLL	A: 0x63FA0000 - 0x63FDE000	(C:\Users\Admin\Desktop\Gamemode M26RP\plugins\streamer.DLL)
+MSVCP100.dll	A: 0x5FED0000 - 0x5FF39000	(C:\Users\Admin\Desktop\Gamemode M26RP\MSVCP100.dll)
+MSVCR100.dll	A: 0x5FE10000 - 0x5FECF000	(C:\Users\Admin\Desktop\Gamemode M26RP\MSVCR100.dll)
+mysql.DLL	A: 0x5E2D0000 - 0x5E3A4000	(C:\Users\Admin\Desktop\Gamemode M26RP\plugins\mysql.DLL)
+LIBMYSQL.dll	A: 0x5B1B0000 - 0x5B47A000	(C:\Users\Admin\Desktop\Gamemode M26RP\LIBMYSQL.dll)
+MSVCP110.dll	A: 0x5E240000 - 0x5E2C5000	(C:\Users\Admin\Desktop\Gamemode M26RP\MSVCP110.dll)
+MSVCR110.dll	A: 0x5D1B0000 - 0x5D286000	(C:\Users\Admin\Desktop\Gamemode M26RP\MSVCR110.dll)
+napinsp.dll	A: 0x64320000 - 0x64331000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x63E30000 - 0x63E46000	(C:\Windows\system32\pnrpnsp.dll)
+NLAapi.dll	A: 0x72400000 - 0x72413000	(C:\Windows\system32\NLAapi.dll)
+winrnr.dll	A: 0x643D0000 - 0x643DB000	(C:\Windows\System32\winrnr.dll)
+mswsock.dll	A: 0x739C0000 - 0x73A10000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x73810000 - 0x7388F000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x773E0000 - 0x773E7000	(C:\Windows\System32\NSI.dll)
+IPHLPAPI.DLL	A: 0x737D0000 - 0x737FF000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+mdnsNSP.dll	A: 0x6A7E0000 - 0x6A801000	(C:\Program Files\Bonjour\mdnsNSP.dll)
+rasadhlp.dll	A: 0x6E320000 - 0x6E328000	(C:\Windows\System32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000D000	(C:\Users\Admin\Desktop\Gamemode M26RP\plugins\sscanf.DLL)
+whirlpool.DLL	A: 0x00540000 - 0x0054C000	(C:\Users\Admin\Desktop\Gamemode M26RP\plugins\whirlpool.DLL)
+MSVCR80.dll	A: 0x5B110000 - 0x5B1AB000	(C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9307_none_d0882a20442f72e4\MSVCR80.dll)
+bcrypt.dll	A: 0x73EF0000 - 0x73F0A000	(C:\Windows\SYSTEM32\bcrypt.dll)

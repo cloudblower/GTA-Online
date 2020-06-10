@@ -1,0 +1,375 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:08:26] weburl = "www.sa-mp.com"  (string)
+[21:08:26] 
+[21:08:26] Server Plugins
+[21:08:26] --------------
+[21:08:26]  Loading plugin: streamer
+[21:08:26] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[21:08:26]   Loaded.
+[21:08:26]  Loading plugin: mysql
+[21:08:27]  >> plugin.mysql: R33 successfully loaded.
+[21:08:27]   Loaded.
+[21:08:27]  Loading plugin: mysql2
+[21:08:27]   Failed.
+[21:08:27]  Loading plugin: sscanf
+[21:08:27] 
+
+[21:08:27]  ===============================
+
+[21:08:27]       sscanf plugin loaded.     
+
+[21:08:27]          Version:  2.8.1        
+
+[21:08:27]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:08:27]  ===============================
+
+[21:08:27]   Loaded.
+[21:08:27]  Loading plugin: crashdetect
+[21:08:27]   Failed.
+[21:08:27]  Loading plugin: whirlpool
+[21:08:27]  
+[21:08:27]  ==================
+[21:08:27]  
+[21:08:27]   Whirlpool loaded
+[21:08:27]  
+[21:08:27]  ==================
+[21:08:27]  
+[21:08:27]   Loaded.
+[21:08:27]  Loaded 4 plugins.
+
+[21:08:27] 
+[21:08:27] Filterscripts
+[21:08:27] ---------------
+[21:08:27]   Loading filterscript 'exterior.amx'...
+[21:08:27]   Loading filterscript 'interior.amx'...
+[21:08:27]   Loading filterscript 'object.amx'...
+[21:08:27]   Loading filterscript 'removebuilding.amx'...
+[21:08:27] RemoveBuilding Filterscript Initiated
+[21:08:27]   Loaded 4 filterscripts.
+
+[21:08:27]  
+[21:08:27]  ======================================= 
+[21:08:27]  |                                     | 
+[21:08:27]  |        YSI version 3.01.0002        | 
+[21:08:27]  |        By Alex "Y_Less" Cole        | 
+[21:08:27]  |                                     | 
+[21:08:27]  ======================================= 
+[21:08:27]  
+[21:08:28] Dang chuan bi tai gamemode, xin vui long cho doi...
+[21:08:30] [MySQL] (Main Pipelines) Connecting to 127.0.0.1...
+[21:08:30] [MySQL] (MainPipeline) Fatal Error! Could not connect to MySQL: Host 127.0.0.1 - DB: m26rp - User: root
+[21:08:30] [MySQL] Note: Make sure that you have provided the correct connection credentials.
+[21:08:30] [MySQL] Error number: 2003
+[21:08:30] [Dynamic Giftbox] Loading the Dynamic Giftbox...
+[21:08:30] [LoadCrates] Load Query Sent
+[21:08:30] [LoadHouses] Loading data from database...
+[21:08:30] [LoadDynamicDoors] Loading data from database...
+[21:08:30] [LoadDynamicMapIcons] Loading data from database...
+[21:08:30] [LoadMailboxes] Loading data from database...
+[21:08:30] [LoadBusinesses] Loading data from database...
+[21:08:30] [LoadAuctions] Loading data from database...
+[21:08:30] [LoadTxtLabels] Loading data from database...
+[21:08:30] [LoadPlants] Loading data from database...
+[21:08:30] [SpeedCameras] Loading data from database...
+[21:08:30] [LoadPayNSprays] Loading data from database...
+[21:08:30] [LoadArrestPoints] Loading data from database...
+[21:08:30] [LoadImpoundPoints] Loading data from database...
+[21:08:30] [LoadRelayForLifeTeams] Loading data from database...
+[21:08:30] [LoadBusinessSales] Loading data from database...
+[21:08:30] -mSelection- Canh Bao: Khong the tai danh sach: "planes.txt"
+[21:08:30] -mSelection- Canh Bao: Khong the tai danh sach: "otos.txt"
+[21:08:30] -mSelection- Canh Bao: Khong the tai danh sach: "ships.txt"
+[21:08:30] -mSelection- Canh Bao: Khong the tai danh sach: "gangvehlist.txt"
+[21:08:30] [LoadTurfWars] 0 turfs loaded.
+[21:08:30] [LoadPaintballArenas] 10 paintball arenas loaded.
+[21:08:30] [LoadEventPoints] 0 event points loaded.
+[21:08:30] [LoadGates] Loading data from database...
+[21:08:30] [LoadElevatorStuff] 20 floors loaded.
+[21:08:30] [LoadFamilies] Dang tai du lieu tu database...
+[21:08:30] [LoadFamilyPoints] Loading Family Points from the database, please wait...
+[21:08:30] [MiscLoad] Misc Loaded
+[21:08:30] Resetting news...
+[21:08:30] Resetting default server variables..
+[21:08:30] Adjusted the server time...
+[21:08:30] [Streamer] Loading Dynamic Static Vehicles...
+[21:08:30] [Streamer] Dynamic Static Vehicles has been loaded.
+[21:08:30] [Streamer] Loading Dynamic Pickups...
+[21:08:30] [Streamer] Dynamic Pickups has been loaded.
+[21:08:30] [Streamer] Loading 3D Text Labels...
+[21:08:30] [Streamer] Dynamic 3D Text Labels has been loaded.
+[21:08:30] [Streamer] Loading Dynamic Buttons...
+[21:08:30] [Streamer] Dynamic Buttons has been loaded.
+[21:08:30] [Streamer] Loading Dynamic Objects...
+[21:08:30] [Streamer] Dynamic Objects has been loaded.
+[21:08:30] [Textdraws] Loading Textdraws...
+[21:08:30] [Textdraws] Loaded textdraws.
+[21:08:30] [Dynamic Groups] Loading Dynamic Groups...
+[21:08:30] [Dynamic Groups] Loading Dynamic Groups Vehicles...
+[21:08:30] 
+---------------------------------------------------------------------------
+[21:08:30] Gamemode M26:Gaming Roleplay da tai thanh cong voi phien ban M26:RP v1.0.0
+[21:08:30] ---------------------------------------------------------------------------
+[21:08:30] Number of vehicle models: 25
+[21:08:30] --- Server Shutting Down.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:09:03] weburl = "www.sa-mp.com"  (string)
+[21:09:03] 
+[21:09:03] Server Plugins
+[21:09:03] --------------
+[21:09:03]  Loading plugin: streamer
+[21:09:03] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[21:09:03]   Loaded.
+[21:09:03]  Loading plugin: mysql
+[21:09:03]  >> plugin.mysql: R33 successfully loaded.
+[21:09:03]   Loaded.
+[21:09:03]  Loading plugin: mysql2
+[21:09:03]   Failed.
+[21:09:03]  Loading plugin: sscanf
+[21:09:03] 
+
+[21:09:03]  ===============================
+
+[21:09:03]       sscanf plugin loaded.     
+
+[21:09:03]          Version:  2.8.1        
+
+[21:09:03]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:09:03]  ===============================
+
+[21:09:03]   Loaded.
+[21:09:03]  Loading plugin: crashdetect
+[21:09:03]   Failed.
+[21:09:03]  Loading plugin: whirlpool
+[21:09:03]  
+[21:09:03]  ==================
+[21:09:03]  
+[21:09:03]   Whirlpool loaded
+[21:09:03]  
+[21:09:03]  ==================
+[21:09:03]  
+[21:09:03]   Loaded.
+[21:09:03]  Loaded 4 plugins.
+
+[21:09:03] 
+[21:09:03] Filterscripts
+[21:09:03] ---------------
+[21:09:03]   Loading filterscript 'exterior.amx'...
+[21:09:03]   Loading filterscript 'interior.amx'...
+[21:09:03]   Loading filterscript 'object.amx'...
+[21:09:03]   Loading filterscript 'removebuilding.amx'...
+[21:09:03] RemoveBuilding Filterscript Initiated
+[21:09:03]   Loaded 4 filterscripts.
+
+[21:09:03]  
+[21:09:03]  ======================================= 
+[21:09:03]  |                                     | 
+[21:09:03]  |        YSI version 3.01.0002        | 
+[21:09:03]  |        By Alex "Y_Less" Cole        | 
+[21:09:03]  |                                     | 
+[21:09:03]  ======================================= 
+[21:09:03]  
+[21:09:04] Dang chuan bi tai gamemode, xin vui long cho doi...
+[21:09:06] [MySQL] (Main Pipelines) Connecting to 127.0.0.1...
+[21:09:06] [MySQL] (MainPipeline) Fatal Error! Could not connect to MySQL: Host 127.0.0.1 - DB: m26rp - User: root
+[21:09:06] [MySQL] Note: Make sure that you have provided the correct connection credentials.
+[21:09:06] [MySQL] Error number: 2003
+[21:09:06] [Dynamic Giftbox] Loading the Dynamic Giftbox...
+[21:09:06] [LoadCrates] Load Query Sent
+[21:09:06] [LoadHouses] Loading data from database...
+[21:09:06] [LoadDynamicDoors] Loading data from database...
+[21:09:06] [LoadDynamicMapIcons] Loading data from database...
+[21:09:06] [LoadMailboxes] Loading data from database...
+[21:09:06] [LoadBusinesses] Loading data from database...
+[21:09:06] [LoadAuctions] Loading data from database...
+[21:09:06] [LoadTxtLabels] Loading data from database...
+[21:09:06] [LoadPlants] Loading data from database...
+[21:09:06] [SpeedCameras] Loading data from database...
+[21:09:06] [LoadPayNSprays] Loading data from database...
+[21:09:06] [LoadArrestPoints] Loading data from database...
+[21:09:06] [LoadImpoundPoints] Loading data from database...
+[21:09:06] [LoadRelayForLifeTeams] Loading data from database...
+[21:09:06] [LoadBusinessSales] Loading data from database...
+[21:09:06] -mSelection- Canh Bao: Khong the tai danh sach: "planes.txt"
+[21:09:06] -mSelection- Canh Bao: Khong the tai danh sach: "otos.txt"
+[21:09:06] -mSelection- Canh Bao: Khong the tai danh sach: "ships.txt"
+[21:09:06] -mSelection- Canh Bao: Khong the tai danh sach: "gangvehlist.txt"
+[21:09:06] [LoadTurfWars] 0 turfs loaded.
+[21:09:06] [LoadPaintballArenas] 10 paintball arenas loaded.
+[21:09:06] [LoadEventPoints] 0 event points loaded.
+[21:09:06] [LoadGates] Loading data from database...
+[21:09:06] [LoadElevatorStuff] 20 floors loaded.
+[21:09:06] [LoadFamilies] Dang tai du lieu tu database...
+[21:09:06] [LoadFamilyPoints] Loading Family Points from the database, please wait...
+[21:09:06] [MiscLoad] Misc Loaded
+[21:09:06] Resetting news...
+[21:09:06] Resetting default server variables..
+[21:09:06] Adjusted the server time...
+[21:09:06] [Streamer] Loading Dynamic Static Vehicles...
+[21:09:06] [Streamer] Dynamic Static Vehicles has been loaded.
+[21:09:06] [Streamer] Loading Dynamic Pickups...
+[21:09:06] [Streamer] Dynamic Pickups has been loaded.
+[21:09:06] [Streamer] Loading 3D Text Labels...
+[21:09:06] [Streamer] Dynamic 3D Text Labels has been loaded.
+[21:09:06] [Streamer] Loading Dynamic Buttons...
+[21:09:06] [Streamer] Dynamic Buttons has been loaded.
+[21:09:06] [Streamer] Loading Dynamic Objects...
+[21:09:06] [Streamer] Dynamic Objects has been loaded.
+[21:09:06] [Textdraws] Loading Textdraws...
+[21:09:06] [Textdraws] Loaded textdraws.
+[21:09:06] [Dynamic Groups] Loading Dynamic Groups...
+[21:09:06] [Dynamic Groups] Loading Dynamic Groups Vehicles...
+[21:09:06] 
+---------------------------------------------------------------------------
+[21:09:06] Gamemode M26:Gaming Roleplay da tai thanh cong voi phien ban M26:RP v1.0.0
+[21:09:06] ---------------------------------------------------------------------------
+[21:09:06] Number of vehicle models: 25
+[21:09:06] --- Server Shutting Down.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:09:20] weburl = "www.sa-mp.com"  (string)
+[21:09:20] 
+[21:09:20] Server Plugins
+[21:09:20] --------------
+[21:09:20]  Loading plugin: streamer
+[21:09:20] 
+
+*** Streamer Plugin v2.6.1 by Incognito loaded ***
+
+[21:09:20]   Loaded.
+[21:09:20]  Loading plugin: mysql
+[21:09:20]  >> plugin.mysql: R33 successfully loaded.
+[21:09:20]   Loaded.
+[21:09:20]  Loading plugin: mysql2
+[21:09:20]   Failed.
+[21:09:20]  Loading plugin: sscanf
+[21:09:20] 
+
+[21:09:20]  ===============================
+
+[21:09:20]       sscanf plugin loaded.     
+
+[21:09:20]          Version:  2.8.1        
+
+[21:09:20]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:09:20]  ===============================
+
+[21:09:20]   Loaded.
+[21:09:20]  Loading plugin: crashdetect
+[21:09:20]   Failed.
+[21:09:20]  Loading plugin: whirlpool
+[21:09:20]  
+[21:09:20]  ==================
+[21:09:20]  
+[21:09:20]   Whirlpool loaded
+[21:09:20]  
+[21:09:20]  ==================
+[21:09:20]  
+[21:09:20]   Loaded.
+[21:09:20]  Loaded 4 plugins.
+
+[21:09:20] 
+[21:09:20] Filterscripts
+[21:09:20] ---------------
+[21:09:20]   Loading filterscript 'exterior.amx'...
+[21:09:20]   Loading filterscript 'interior.amx'...
+[21:09:20]   Loading filterscript 'object.amx'...
+[21:09:20]   Loading filterscript 'removebuilding.amx'...
+[21:09:20] RemoveBuilding Filterscript Initiated
+[21:09:20]   Loaded 4 filterscripts.
+
+[21:09:21]  
+[21:09:21]  ======================================= 
+[21:09:21]  |                                     | 
+[21:09:21]  |        YSI version 3.01.0002        | 
+[21:09:21]  |        By Alex "Y_Less" Cole        | 
+[21:09:21]  |                                     | 
+[21:09:21]  ======================================= 
+[21:09:21]  
+[21:09:21] Dang chuan bi tai gamemode, xin vui long cho doi...
+[21:09:23] [MySQL] (Main Pipelines) Connecting to 127.0.0.1...
+[21:09:23] [MySQL] (MainPipeline) Fatal Error! Could not connect to MySQL: Host 127.0.0.1 - DB: m26rp - User: root
+[21:09:23] [MySQL] Note: Make sure that you have provided the correct connection credentials.
+[21:09:23] [MySQL] Error number: 2003
+[21:09:23] [Dynamic Giftbox] Loading the Dynamic Giftbox...
+[21:09:23] [LoadCrates] Load Query Sent
+[21:09:23] [LoadHouses] Loading data from database...
+[21:09:23] [LoadDynamicDoors] Loading data from database...
+[21:09:23] [LoadDynamicMapIcons] Loading data from database...
+[21:09:23] [LoadMailboxes] Loading data from database...
+[21:09:23] [LoadBusinesses] Loading data from database...
+[21:09:23] [LoadAuctions] Loading data from database...
+[21:09:23] [LoadTxtLabels] Loading data from database...
+[21:09:23] [LoadPlants] Loading data from database...
+[21:09:23] [SpeedCameras] Loading data from database...
+[21:09:23] [LoadPayNSprays] Loading data from database...
+[21:09:23] [LoadArrestPoints] Loading data from database...
+[21:09:23] [LoadImpoundPoints] Loading data from database...
+[21:09:23] [LoadRelayForLifeTeams] Loading data from database...
+[21:09:23] [LoadBusinessSales] Loading data from database...
+[21:09:23] -mSelection- Canh Bao: Khong the tai danh sach: "planes.txt"
+[21:09:23] -mSelection- Canh Bao: Khong the tai danh sach: "otos.txt"
+[21:09:23] -mSelection- Canh Bao: Khong the tai danh sach: "ships.txt"
+[21:09:23] -mSelection- Canh Bao: Khong the tai danh sach: "gangvehlist.txt"
+[21:09:23] [LoadTurfWars] 0 turfs loaded.
+[21:09:23] [LoadPaintballArenas] 10 paintball arenas loaded.
+[21:09:23] [LoadEventPoints] 0 event points loaded.
+[21:09:23] [LoadGates] Loading data from database...
+[21:09:23] [LoadElevatorStuff] 20 floors loaded.
+[21:09:23] [LoadFamilies] Dang tai du lieu tu database...
+[21:09:23] [LoadFamilyPoints] Loading Family Points from the database, please wait...
+[21:09:23] [MiscLoad] Misc Loaded
+[21:09:23] Resetting news...
+[21:09:23] Resetting default server variables..
+[21:09:23] Adjusted the server time...
+[21:09:23] [Streamer] Loading Dynamic Static Vehicles...
+[21:09:23] [Streamer] Dynamic Static Vehicles has been loaded.
+[21:09:23] [Streamer] Loading Dynamic Pickups...
+[21:09:23] [Streamer] Dynamic Pickups has been loaded.
+[21:09:23] [Streamer] Loading 3D Text Labels...
+[21:09:23] [Streamer] Dynamic 3D Text Labels has been loaded.
+[21:09:23] [Streamer] Loading Dynamic Buttons...
+[21:09:23] [Streamer] Dynamic Buttons has been loaded.
+[21:09:23] [Streamer] Loading Dynamic Objects...
+[21:09:23] [Streamer] Dynamic Objects has been loaded.
+[21:09:23] [Textdraws] Loading Textdraws...
+[21:09:23] [Textdraws] Loaded textdraws.
+[21:09:23] [Dynamic Groups] Loading Dynamic Groups...
+[21:09:23] [Dynamic Groups] Loading Dynamic Groups Vehicles...
+[21:09:23] 
+---------------------------------------------------------------------------
+[21:09:23] Gamemode M26:Gaming Roleplay da tai thanh cong voi phien ban M26:RP v1.0.0
+[21:09:23] ---------------------------------------------------------------------------
+[21:09:23] Number of vehicle models: 25
+[21:09:23] --- Server Shutting Down.
